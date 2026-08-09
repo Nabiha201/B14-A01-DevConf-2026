@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navbar */
+
+header{
+    background: #fff;
+    padding: 20px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.list a{
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+}
+
+.common-btn{
+    background:#2356ff ;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+
+}
