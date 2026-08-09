@@ -25,18 +25,66 @@ header{
     display: flex;
     list-style: none;
     gap: 30px;
+    
 }
 .list a{
     text-decoration: none;
-    color: #444;
-    font-size: 15px;
+    color: #575757;
+    font-weight: 400;
+    font-display: block;
 }
 
 .common-btn{
-    background:#2356ff ;
-    padding: 12px 24px;
-    border-radius: 8px;
+    background:#1D4ED8 ;
+    padding: 12px 12px;
+    width: 188px;
+    height: 48px;
+    border-radius: 10px;
     color: #fff;
     text-decoration: none;
+
+}
+
+/*hero-section*/
+.hero{
+    width: 1551px;
+    height: 786px;
+    background-image: url("./assets/banner.jpg");
+    position:relative;
+
+}
+.overlay{
+    background: rgba(0,0,0,.55);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content{
+    color: white;
+    max-width: 800px;
+}
+.hero h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 136px;
+}
+.hero p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.common-btn-2{
+    background:#1D4ED8 ;
+    padding: 12px 12px;
+    width: 282px;
+    height: 74px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 390px;
+    margin-bottom: 150px;
 
 }
