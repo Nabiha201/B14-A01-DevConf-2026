@@ -1,0 +1,1 @@
+give me some ideas for a new section to add with the given devconference sample page
